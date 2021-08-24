@@ -46,13 +46,10 @@ nav ul {
     display: flex;
 }
 
-nav li {
-    margin: 1rem 2rem 1rem 0;
-}
-
 nav a {
     text-decoration: none;
     color: white;
+    margin: 1rem 2rem 1rem 0;
 }
 
 nav a:hover {
@@ -91,8 +88,9 @@ nav a:hover {
     background-color: white;
     display: inline-block;
     position: absolute;
-    top: 12.5rem;
+    top: 14.5rem;
     right: -2rem;
+    padding: 1.5rem 5rem;
 }
 
 .banner-text h1 {
@@ -100,7 +98,6 @@ nav a:hover {
     font-weight: bold;
     font-size: 2rem;
     line-height: 1.2;
-    margin: 1.5rem 5rem;
 }
 
 .icons .container {
@@ -163,21 +160,73 @@ footer img {
 }
 
 @media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
 
+    header {
+        height: 22rem;
+        background-position: 40%;
+    }
+
+    .navbar {
+        top: 0;
+    }
+
+    .banner-text {
+        top: 8.5rem;
+        right: 2rem;
+        padding: 0.75rem 4rem;
+    }
+
+    .banner-text h1 {
+        font-size: 1.3rem;
+    }
 }
 
 
 @media only screen and (max-width: 700px) {
+    .logo p {
+        display: none;
+    }
 
 }
 
 
 @media only screen and (max-width: 560px) {
+    header {
+        height: 17rem;
+        background-position: 20%;
+    }
+
     .dropdown {
         display: inline-block;
+        margin: 1rem 2rem 1rem 0;
     }
 
     .lgnav {
         display: none;
+    }
+
+    .banner-text {
+        top: 12.5rem;
+        width: 100%;
+        padding: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .articles .container {
+        display: block;
+    }
+
+    .article {
+        width: 100%;
+        margin-bottom: 4rem;
     }
 }
