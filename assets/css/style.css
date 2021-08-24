@@ -118,7 +118,6 @@ nav a:hover {
 
 .icon img {
     width: 5rem;
-    margin-bottom: 1rem;
 }
 
 #icon1 img {
@@ -159,7 +158,7 @@ footer img {
     height: 1.5rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
     .container {
         width: 100%;
     }
@@ -190,6 +189,11 @@ footer img {
         display: none;
     }
 
+    .banner-text {
+        top: 15.5rem;
+        right: 1rem;
+        padding: 0.75rem 2rem;
+    }
 }
 
 
@@ -219,6 +223,19 @@ footer img {
     .banner-text h1 {
         font-size: 1rem;
         margin: 1rem 0;
+    }
+
+    .icons .container {
+        margin: 3rem 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .icon {
+        height: auto;
+        margin: .77rem;
+        font-size: .77rem;
     }
 
     .articles .container {
