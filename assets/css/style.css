@@ -127,6 +127,7 @@ nav a:hover {
 .articles .container {
     margin-bottom: 5rem;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .article {
@@ -137,6 +138,7 @@ nav a:hover {
 .heading {
     background-color: cadetblue;
     width: 10rem;
+
 }
 
 .heading h4 {
